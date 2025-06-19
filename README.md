@@ -5,53 +5,52 @@
 
 ![preview.png](preview.png)
 
-## 🚀 Overview
+## Overview
 
-This project is a full-stack, real-time feedback system that leverages cutting-edge AI to extract **emotional insights from user reviews**. It was initiated during Cal Hacks and serves as a next-generation interface for analyzing how users *feel* about a product—not just what they say.
+This project is a full-stack, real-time feedback system that leverages advanced AI to extract emotional insights from user reviews. Originally developed at Cal Hacks, it represents a next-generation interface for understanding user sentiment beyond surface-level feedback.
 
-At its core, it integrates:
+It integrates:
 
-- **[Hume's Empathic Voice Interface (EVI)](https://hume.docs.buildwithfern.com/docs/empathic-voice-interface-evi/overview)** for multi-modal emotional sentiment extraction
-- A responsive chat interface built with **Next.js (App Router)** and **React SDK**
-- Real-time data flow with **Apache Kafka** and WebSockets
-- Domain-optimized **LLaMA 3.1–8B** fine-tuned via **LoRA** for deeper, context-specific interpretation of user feedback
+- [Hume's Empathic Voice Interface (EVI)](https://hume.docs.buildwithfern.com/docs/empathic-voice-interface-evi/overview) for multi-modal emotional sentiment analysis
+- A responsive chat interface built with Next.js (App Router) and React
+- Real-time data streaming with Apache Kafka and WebSockets
+- Domain-specific fine-tuned LLaMA 3.1–8B model using LoRA for nuanced language interpretation
 
-## ✨ Key Features
+## Key Features
 
-- 🎙️ Emotion-enriched product reviews via **Hume EVI**
-- ⚡ Real-time feedback pipeline using **Kafka** and **WebSocket**
-- 🧠 Intelligent analysis powered by **fine-tuned LLaMA 3.1–8B** inference models
-- 🔐 End-to-end security with **SSH-encrypted Kafka consumers**
-- 📊 Seamless UI with <500ms response latency for a frictionless user experience
-- 💬 Secure, scalable feedback channel ideal for product teams, beta testers, and live reviews
+- Real-time emotional enrichment of user reviews using Hume EVI
+- Live feedback pipeline with Kafka and WebSocket for sub-500ms latency
+- Contextual interpretation of user input using fine-tuned LLaMA 3.1–8B
+- Secure Kafka message consumption over SSH
+- Clean and responsive front-end with dynamic UI updates
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Frontend**: Next.js 14 (App Router), React, Tailwind CSS
 - **Backend**: Kafka, Node.js, LLaMA 3.1 (LoRA), SSH
-- **AI/ML**: Hume EVI API (real-time emotional inference), OpenAI integration (optional)
-- **Security**: Encrypted transport via SSH, OAuth (if configured)
-- **Deployment**: Vercel (1-click deploy)
+- **AI/ML**: Hume EVI API (real-time emotional analysis), OpenAI (optional)
+- **Security**: SSH encryption, OAuth (optional)
+- **Deployment**: Vercel
 
-## 🌐 Project Deployment
+## Project Deployment
 
-Click the button below to deploy this example project with Vercel:
+Click the button below to deploy this project using Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhumeai%2Fhume-evi-next-js-starter&env=HUME_API_KEY,HUME_CLIENT_SECRET)
 
-### Deployment Steps
+### Deployment Instructions
 
-1. Fork or clone this repository into your GitHub.
-2. Click the deploy button above or set up a new project on [vercel.com](https://vercel.com).
-3. Provide your `HUME_API_KEY` and `HUME_CLIENT_SECRET`. You can obtain them via the [Hume AI Developer Portal](https://beta.hume.ai/settings/keys).
-4. Done! Your emotion-aware feedback system is live.
+1. Clone or fork this repository.
+2. Deploy via the Vercel button above or manually configure deployment on [vercel.com](https://vercel.com).
+3. Set your environment variables: `HUME_API_KEY` and `HUME_CLIENT_SECRET`. You can find these on the [Hume Developer Portal](https://beta.hume.ai/settings/keys).
+4. The application will be automatically deployed and ready to use.
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
-- **Hume AI** for their incredible EVI platform
-- **Meta** for LLaMA 3 open weights
-- **Cal Hacks** for the hackathon opportunity
+- Hume AI for the Empathic Voice Interface and SDK
+- Meta for providing open access to LLaMA 3 model weights
+- Cal Hacks for supporting this initiative
 
 ---
 
-> 🧠 *This project brings a human layer to product analytics. Not just what users think—but how they feel.*
+> This system introduces emotional intelligence into product review workflows, enabling a deeper understanding of user experience and sentiment.
